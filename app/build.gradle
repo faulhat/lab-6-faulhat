@@ -26,5 +26,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'lab6.App'
+    mainClass = 'lab6.Components'
 }
