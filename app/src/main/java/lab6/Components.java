@@ -25,8 +25,8 @@ public class Components {
         boolean[][] adjacencies = new boolean[nodes][nodes];
         while (scanner.hasNextInt()) {
             int a = scanner.nextInt(), b = scanner.nextInt();
-            adjacencies[a - 1][b - 1] = true;
-            adjacencies[b - 1][a - 1] = true;
+            adjacencies[a][b] = true;
+            adjacencies[b][a] = true;
         }
 
         Set<Integer> visited = new TreeSet<>();
